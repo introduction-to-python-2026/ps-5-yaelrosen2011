@@ -1,4 +1,7 @@
 # Add the import statements for necessary sympy functions here
+from sympy import symbols, Eq
+from sympy.solvers import solve as sympy_solve
+from typing import List
 
 
 ELEMENTS = [
